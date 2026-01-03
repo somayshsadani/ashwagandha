@@ -28,9 +28,15 @@ A static, compliance-first B2B website for bulk Ashwagandha (Withania somnifera)
 
 This website does not provide medical advice and does not make health or functional claims. All product decisions and labeling are the responsibility of the manufacturer and/or brand owner.
 
+## 🌐 Live Site
+
+**Public URL:** https://ashwagandha-one.vercel.app
+
+The site is live and deployed on Vercel with automatic deployments from the main branch.
+
 ## Deployment
 
-This site can be easily deployed to Vercel. See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed instructions.
+This site is deployed to Vercel. See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed instructions.
 
 **Quick deploy to Vercel:**
 ```bash

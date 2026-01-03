@@ -32,8 +32,10 @@ Vercel will auto-detect your static site. Verify these settings:
 
 ### 6. Get Your Live URL
 After deployment completes, you'll see:
-- **Production URL**: `ashwagandha.vercel.app` (or similar)
+- **Production URL**: `ashwagandha-one.vercel.app` (or similar)
 - Click it to see your live site!
+
+**✅ Site is now live at:** https://ashwagandha-one.vercel.app
 
 ## What Happens Next?
 

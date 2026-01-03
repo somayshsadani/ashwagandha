@@ -59,9 +59,11 @@ This guide will help you deploy your static website to Vercel.
 
 7. **Your site will be live** at a URL like: `your-project-name.vercel.app`
 
+**✅ Site is currently live at:** https://ashwagandha-one.vercel.app
+
 ## Configuration
 
-The `vercel.json` file is already configured for static HTML deployment. No additional configuration needed!
+Vercel auto-detects static sites, so no configuration file is needed. The site will automatically serve all HTML, CSS, and other static files from the repository root.
 
 ## Custom Domain (Optional)
 
