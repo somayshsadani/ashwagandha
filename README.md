@@ -28,6 +28,19 @@ A static, compliance-first B2B website for bulk Ashwagandha (Withania somnifera)
 
 This website does not provide medical advice and does not make health or functional claims. All product decisions and labeling are the responsibility of the manufacturer and/or brand owner.
 
+## Deployment
+
+This site can be easily deployed to Vercel. See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed instructions.
+
+**Quick deploy to Vercel:**
+```bash
+npm i -g vercel
+vercel login
+vercel --prod
+```
+
+Or connect your Git repository to Vercel for automatic deployments.
+
 ## Contact
 
 For procurement inquiries: somayshsadani@gmail.com
