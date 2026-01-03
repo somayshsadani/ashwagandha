@@ -102,15 +102,6 @@ a:hover {
 .brand-link {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-}
-
-.brand-mark {
-  width: 14px;
-  height: 14px;
-  border-radius: 4px;
-  border: 1px solid var(--line);
-  background: linear-gradient(180deg, #ffffff, #f3f4f6);
 }
 
 .brand-name {
@@ -519,13 +510,17 @@ dd {
 @media (max-width: 900px) {
   .header-inner {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 18px;
     padding: 20px 0;
   }
   .brand {
     max-width: none;
     width: 100%;
+    text-align: center;
+  }
+  .brand-link {
+    justify-content: center;
   }
   .site-nav {
     width: 100%;
@@ -577,6 +572,10 @@ dd {
   .header-inner {
     padding: 18px 0;
     gap: 16px;
+    align-items: center;
+  }
+  .brand {
+    text-align: center;
   }
   .site-nav {
     gap: 4px;
@@ -596,6 +595,7 @@ dd {
     font-size: 0.9rem;
     margin-top: 5px;
     line-height: 1.4;
+    text-align: center;
   }
   .brand-name {
     font-size: 1.1rem;
